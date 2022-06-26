@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">	
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+	<link rel="icon" href="img/favicon.ico">				
+	<title>Busca empleos y empleados</title>
+</head>
+<body style="background-color: #dceafc" >
+  <nav class="py-2 bg-dark border-bottom">
+    <div class="container d-flex flex-wrap">
+    <a class="navbar-brand link-info" href="#">
+      <img src="img/heart.png" alt="" width="26" height="26">
+      MW
+    </a>
+     <ul class="nav me-auto">
+        <li class="nav-item"><a href="index.html" class="nav-link link-light px-2 active" aria-current="page">Inicio</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-light px-2">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-light px-2">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-light px-2">Ayuda</a></li>
+        <li class="nav-item"><a href="#" class="nav-link link-light px-2">Información</a></li>
+      </ul>
+
+   	 <div class="text-end">
+          <a href="login.html"><button type="button" class="btn btn-outline-light me-2">Iniciar Sesión</button></a>
+          <a href="registro.html"><button type="button" class="btn btn-info">Registrarse</button></a>
+     </div>
+
+    </div>
+  </nav>
+  <header class="py-3 mb-4 border-bottom bg-light">
+    <div class="container d-flex flex-wrap justify-content-center">
+      <a href="" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+        <span class="fs-3">
+        <img src="img/heart.gif" alt="" width="48" height="48">
+        Match Work
+    	</span>
+      </a>
+      <form class="d-flex col-12 col-lg-auto mb-3 mb-lg-0">
+		<input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+        <button class="btn btn-outline-info" type="submit">
+        	      <img src="img/search.png" alt="" width="24" height="24">
+        </button>
+    	</form>
+    </div>
+  </header>
+
+<div class="card text-center row">
+  <div class="card-header bg-dark text-light">
+    <h2>Empleados:</h2>
+  <div class="card-body btn-success">
+
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/perfil1.jpg" class="d-block w-100" alt="...">
+       <div class="carousel-caption d-none d-md-block bg-dark">
+        <h5 class>Juan Carlos</h5>
+        <h5>Argentina, Mendoza</h5>
+        <p>Campos de interes: desarrollo web.</p>
+
+<button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Más Información</button>
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header bg-dark">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel text-light">Sobre mi:</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body text-light bg-dark">
+    Especializado en páginas web con Blazor.
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-info">Ver Perfil</button>
+        <button type="button" class="btn btn-danger">Ocultar</button>
+      </div>
+	</div>
+    <div class="carousel-item">
+      <img src="img/perfil2.jpg" class="d-block w-100" alt="...">
+     <div class="carousel-caption d-none d-md-block bg-dark">
+        <h5>María del Carmen</h5>
+        <h5>Argentina, Mendoza</h5>
+        <p>Campos de interes: Diseño Gráfico.</p>
+<button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom1" aria-controls="offcanvasBottom">Más Información</button>
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom1" aria-labelledby="offcanvasBottomLabel1">
+  <div class="offcanvas-header bg-dark">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel1 text-light">Sobre mi:</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body text-light bg-dark">
+    Título en diseño gráfico.
+  </div>
+</div>
+
+        <button type="button" class="btn btn-info">Ver Perfil</button>
+        <button type="button" class="btn btn-danger">Ocultar</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/perfil3.jpg" class="d-block w-100" alt="...">
+    	<div class="carousel-caption d-none d-md-block bg-dark">
+        <h5>Marcos Lorenzo</h5>
+        <h5>Argentina, Mendoza</h5>
+        <p>Campos de interes: Analisis de sistemas.</p>
+
+<button class="btn btn-outline-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom2" aria-controls="offcanvasBottom">Más Información</button>
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom2" aria-labelledby="offcanvasBottomLabel2">
+  <div class="offcanvas-header bg-dark">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel2 text-light">Sobre mi:</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body text-light bg-dark">
+    Analista de sistemas y desarrollador de software.
+  </div>
+</div>
+
+        <button type="button" class="btn btn-info">Ver Perfil</button>
+        <button type="button" class="btn btn-danger">Ocultar</button>
+      </div>
+      <div class="carousel-caption d-none d-md-block">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+  </div>
+  <div class="card-footer text-muted bg-dark text-light">
+    2 days ago
+  </div>
+</div>
+
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Ayuda</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Información</a></li>
+    </ul>
+    <p class="text-center text-muted">&copy; 2022 Match Work, Inc</p>
+  </footer>
+</div>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+</body>
+</html>
+
+<!--Ubicación geográfica-->
